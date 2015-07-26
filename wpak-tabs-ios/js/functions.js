@@ -284,18 +284,20 @@ define(['jquery','core/theme-app','core/modules/storage','core/theme-tpl-tags'],
      */
     function resetTabIcons(){
 
-        var menuItems = $(".tab");
+        var menuTabs = $(".tab");
         var tabClassName = "";
         var tabOrder = 0;
 
-        for (i=0;i<5;i++){
-            
-            if ($(menuItems[i]).attr("class").indexOf("-on-") != -1) {
+        var menuItemsArray = TplTags.getMenuItems();
+        
+        for (i=0;i<menuItemsArray.length;i++){
+
+            if ($(menuTabs[i]).attr("class").indexOf("-on-") != -1) {
                 
                 tabOrder = i + 1;
                 tabClassName = "tab-" + tabOrder + "-icon";
                 
-                $(menuItems[i]).removeClass(tabClassName + "-on-").addClass(tabClassName + "-off-");
+                $(menuTabs[i]).removeClass(tabClassName + "-on-").addClass(tabClassName + "-off-");
             
             }
             
