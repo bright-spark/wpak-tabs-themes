@@ -21,7 +21,7 @@ Take a look at these videos to get a glimpse of the themes:
 
 ##What's implemented
 At the moment, Wpak Off-Canvas themes implement:
-* Nive tabbed menu
+* Nice tabbed menu
 * Archive template (eg. post list)
 * Single template (eg. a post) with the most common HTML elements (eg. strong, em, blockquote...)
 * The refresh process
