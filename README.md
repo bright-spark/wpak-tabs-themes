@@ -2,6 +2,8 @@
 
 ![screenshots-tabs-1 0](https://cloud.githubusercontent.com/assets/6179747/8895895/4d455644-33ea-11e5-9e7e-26950c127582.png)
 
+You might want to check these other fine themes: [Wpak Off-Canvas](https://github.com/uncatcrea/wpak-off-canvas-themes)
+
 # Installation
 * Download WP-AppKit: https://github.com/uncatcrea/wp-appkit
 * Install WP-AppKit as you would do for any other WordPress plugins (ie. drop the plugin folder in */wp-content/plugins*)
